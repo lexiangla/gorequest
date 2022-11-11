@@ -5,6 +5,10 @@
 # 博客地址: http://blog.caixiaoxin.cn/?p=751
 
 # Usages
+```shell
+go get github.com/jeffcail/gorequest
+```
+
 ### Get
 ```go
 func TestGet(t *testing.T) {
