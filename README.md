@@ -1,4 +1,4 @@
-# Go 封装Get、Post请求包，参数可选
+# Go 封装http请求包Get、Post
 
 在项目开发中，经常会使用第三方的一些接口。需要发起http请求，此包封装了最长用的get和post请求
 
