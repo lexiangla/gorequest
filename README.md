@@ -1,10 +1,9 @@
-# Go 封装http请求包Get、Post
+### Go 封装http请求包Get、Post
 
 在项目开发中，经常会使用第三方的一些接口。需要发起http请求，此包封装了最长用的get和post请求
 
-# 博客地址: http://blog.caixiaoxin.cn/?p=751
 
-# Usages
+### Usages
 ```shell
 go get github.com/jeffcail/gorequest
 ```
