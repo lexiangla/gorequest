@@ -61,7 +61,7 @@ func Get(url string, header map[string]string, params map[string]interface{}) ([
 	return bb, nil
 }
 
-func Post(url string, header map[string]string, param map[string]interface{}) ([]byte, error) {
+func Post(url string, header map[string]string, param string) ([]byte, error) {
 	dd, _ := json.Marshal(param)
 	re := bytes.NewReader(dd)
 	req, err := http.NewRequest("POST", url, re)
